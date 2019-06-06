@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <h1>{{title}}</h1>
+  </div>
+  <app-lista-destinos></app-lista-destinos>
+  <input name="titulo" type="text" #titulo>
+  <input name="titulo" type="submit" (click)="agregar(titulo.value)">
+  <h1></h1>
+</div>
+
+
